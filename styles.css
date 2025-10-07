@@ -1,0 +1,77 @@
+/* Style global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+header {
+  background-color: #095323; /* vert Spotify */
+  color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 4px solid #042703;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Section principale */
+main {
+  margin-top: 40px;
+}
+
+/* Bouton avec contour et effet néon */
+button {
+  background-color: #1DB954;
+  color: white;
+  border: 2px solid #1ed760; /* contour vert clair */
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 
+    background-color 0.3s,
+    transform 0.2s,
+    box-shadow 0.3s,
+    border-color 0.3s;
+}
+
+/* Effet hover */
+button:hover {
+  background-color: #1ed760;
+  border-color: #ffffff;
+  box-shadow: 0 0 12px #1DB954, 0 0 24px #1ed760;
+  transform: scale(1.05);
+}
+
+/* Effet "clic" néon */
+button.active {
+  box-shadow: 0 0 20px #1ed760, 0 0 40px #1DB954;
+  transform: scale(0.95);
+}
+
+/* Message */
+#message {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #1DB954;
+  font-size: 1.1rem;
+}
+
+/* Pied de page */
+footer {
+  margin-top: 60px;
+  padding: 12px;
+  background-color: #000000;
+  font-size: 0.9rem;
+  color: #aaa;
+}
